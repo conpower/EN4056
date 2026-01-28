@@ -35,7 +35,10 @@ print("6 - Create (design, develop)")
 print("\nFor each learning outcome, type a number (1-6) that matches its Bloom's level.\n")
 
 # Interactive loop for ranking
-
+for code, outcome in learning_outcomes.items():
+    while True:
+        try:
+            pass:
 
 # Show results
 print("\nYour Bloom's rankings:")
